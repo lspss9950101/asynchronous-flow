@@ -1,0 +1,26 @@
+{
+  "name": "asynchronous-flow",
+  "version": "1.1.0",
+  "description": "Manage asynchronous function in form of Express route(next).",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lspss9950101/flow.git"
+  },
+  "keywords": [
+    "javascript",
+    "asynchronous"
+  ],
+  "author": "tragicDilemma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lspss9950101/flow/issues"
+  },
+  "homepage": "https://github.com/lspss9950101/flow#readme"
+}
