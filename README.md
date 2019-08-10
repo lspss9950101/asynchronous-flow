@@ -41,7 +41,7 @@ var args = {val: 0};
 
 var tmp = new flow();
 tmp.setArgs(args)
-	.setErrorHandler(() => {console.log('Terminated')})
+	.setErrorHandler((err) => {console.log('Error : ', err)})
 	.flow(func1, func2, (arg) => {
 		console.log(arg.val);
 	});
