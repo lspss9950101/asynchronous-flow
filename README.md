@@ -25,7 +25,7 @@ Set the handler function to handle error thrown by next(err).
 The last argument of target function must be a function next.(Similar to Express)
 ## Example ##
 ```
-var flow = require('./../index.js');
+var flow = require('asynchronous-flow');
 
 function func1(arg, next){
 	console.log(arg.val++);
